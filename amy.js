@@ -11,6 +11,22 @@ export const amy_favorite_musics = [
         title: '에잇',
         genre: 'k-pop'
     },
+    {
+        singer: '볼빨간사춘기',
+        title: '여행',
+        genre: 'k-pop'
+    },
+    {
+        singer: '다비치',
+        title: '8282',
+        genre: 'k-pop'
+    },
+    {
+        singer: '뉴진스',
+        title: 'attention',
+        genre: 'k-pop'
+    },
+
 ];
 
 export const nonego_play_list = [
