@@ -21,6 +21,11 @@ export const music = [
         title: 'Half-time',
         genre: 'hiphop'
     },
+    {
+        singer: 'Galantis',
+        title: 'Hunter',
+        genre: 'edm'
+    },
 
 ]
 
