@@ -26,12 +26,25 @@ export const amy_favorite_musics = [
         title: 'attention',
         genre: 'k-pop'
     },
+    {
+        singer: '윤종신',
+        title: '나이',
+        genre: 'k-pop'
+    },
 
 ];
 
-export const nonego_play_list = [
-    ...music,
-    amy_favorite_musics,
-]
 
-console.log(nonego_play_list);
+export const get_same_favorite_musics = () => {
+    // 둘 다 좋아하는 노래 찾기
+    const amy_favorite_singer = amy_favorite_musics.map((m) => m.singer);
+    const dino_favorite_singer = music.map((m) => m.singer);
+
+    const both_favorite_singer =
+        amy_favorite_singer.filter((m) => dino_favorite_singer.includes(m));
+
+    console.log(`both_favorite_singer: ${both_favorite_singer}`);
+
+}
+
+get_same_favorite_musics();
