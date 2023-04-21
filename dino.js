@@ -32,4 +32,3 @@ export const music = [
 const signers = music.map(d => d.singer)
 console.log(signers);
 console.log(signers);
-console.log("");
