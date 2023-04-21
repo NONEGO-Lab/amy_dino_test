@@ -1,4 +1,25 @@
-import {amy_food_list} from "./amy.js";
+const music = [
+    {
+        singer: '정준일',
+        title: '보고싶었어요',
+        genre: 'k-pop'
+    },
+    {
+        singer: '윤종신',
+        title: '나이',
+        genre: 'k-pop'
+    },
 
+    {
+        singer: 'Ahmad Jamal',
+        title: 'I Love music',
+        genre: 'jazz'
+    },
 
-console.log(amy_food_list);
+    {
+        singer: 'Nas',
+        title: 'Half-time',
+        genre: 'hiphop'
+    },
+
+]
