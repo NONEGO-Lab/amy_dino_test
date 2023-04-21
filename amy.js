@@ -52,5 +52,6 @@ console.log("");
 console.log("");
 console.log("");
 console.log("");
+console.log("");
 
 get_same_favorite_musics();
