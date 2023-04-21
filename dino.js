@@ -1,4 +1,4 @@
-const music = [
+export const music = [
     {
         singer: '정준일',
         title: '보고싶었어요',
